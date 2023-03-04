@@ -1,0 +1,111 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+  }
+
+  @media screen and (max-width: 900px) {
+    section {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .hobby {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .textcenter {
+    text-align: center;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .headersection {
+    margin: 1vh;
+    padding: 10vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  10px 10px 20px #cacaca,
+             -10px -10px 20px #f6f6f6;
+  }
+
+  .navbarsection {
+    margin: 1vh;
+    padding: 2.5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 50vh;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  10px 10px 20px #cacaca,
+             -10px -10px 20px #f6f6f6;
+  }
+
+  .mainsection {
+    margin: 1vh;
+    padding: 2.5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 50vh;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  10px 10px 20px #cacaca,
+             -10px -10px 20px #f6f6f6;
+  }
+
+  .asidesection {
+    margin: 1vh;
+    padding: 2.5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 50vh;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  10px 10px 20px #cacaca,
+             -10px -10px 20px #f6f6f6;
+  }
+
+  .footersection {
+    margin: 1vh;
+    padding: 2.5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  10px 10px 20px #cacaca,
+             -10px -10px 20px #f6f6f6;
+  }
+
+  .marginbottom {
+    margin-bottom: 50px;
+  }
+
+  .listnone {
+    list-style: none;
+  }
+
+  .hobby {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+  }
+
+  input, textarea {
+    padding: 5px 10px;
+  }
+
+  textarea {
+    width: 205px;
+    height: 100px;
+  }
+
+  input[type=submit] {
+    width: 350px;
+  }
